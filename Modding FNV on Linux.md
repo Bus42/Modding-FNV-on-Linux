@@ -34,14 +34,21 @@ I suggest keeping all of the files you download during setup in their own dowloa
     + When the Winetricks GUI opens, choose **select the default wineprefix** and click *ok*.
     + Choose **Install a windows DLL or component** and click *ok*.
     + Scroll down, select **dotnet462** and click *ok*. Click-through any error messages that come up, they will not affect you. You will be prompted several times during the installation of dependencies for dotnet462 with EULAs and such. This step will take a while, especially with a slower connection.
-    + Once installation has finished, the Winetricks GUI will open again. Select *Cancel* and exit the GUI.
-### FNV 4GB Patcher
-   + Download the [Microsoft Visual C++ Redistributable](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0) from Microsoft support.
-       + Copy the downloaded .exe file to your game folder.
-       + In the terminal, which should still be open to the game directory, type `wine VC_redist.x86.exe`. The executable will install necesarry .dlls for running FNV 4GB Patcher
-   + Download [FNV 4GB Patcher](https://www.nexusmods.com/newvegas/mods/62552)
-       + In the terminal, which should still be open to the game directory, type `wine `.
-### NVSE
-+ Download [NVSE](http://nvse.silverlock.org/) - you will not run this one just yet.
+    + Once installation has finished, the Winetricks GUI will open again. Select *Cancel*, select *Cancel* again and exit the GUI.
 
 ### Vortex
++ Download [Vortex](https://www.nexusmods.com/site/mods/1?tab=description) from Nexus Mods.
++ Place the .exe file in your game folder.
++ Rename FalloutNVLauncher.exe to FalloutNVLauncher.bak
++ Rename Vortex*.exe to FalloutNVLauncher.exe
++ Launch Fallout: New Vegas through Steam and Vortex will install itself
+### NVSE
++ Download [NVSE](http://nvse.silverlock.org/) - you will not run this one just yet.
+### FNV 4GB Patcher
+   + Download the [Microsoft Visual C++ Redistributable](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0) from Microsoft support.
+   + Copy the downloaded .exe file to your game folder.
+   + In the terminal, which should still be open to the game directory, type `wine VC_redist.x86.exe`. The executable will install necesarry .dlls for running FNV 4GB Patcher.
+   + Download [FNV 4GB Patcher](https://www.nexusmods.com/newvegas/mods/62552).
+   + Copy the downloaded .exe file to your game folder.
+   + Unpack the .zip file into a folder in the same directory, ie: `~/Downloads/Modding_FNV/4GBPatch/`.
+   + Open **FNV4GB Readme.txt** and follow the directions in the *Running* section, run with wine the same as you did to run the Microsoft Visual C++ Redistributable.
