@@ -18,5 +18,12 @@ I will make the assumption that you do know enough to at least run the game on y
     + Under the **Water** tab, disable *Water Displacement*.
     + If you're using a glorified toaster, you may want to go to the **Detail** tab and choose *Medium*  or, if you're using an actual potato, *Low*.
 ## Lay the groundwork with Protontricks, NVSE, and 4gb Patch
-+ Download ProtonTricks from github `--->` [here](https://github.com/Matoking/protontricks) `<---` and follow directions for installation.
-+ Once installed, open the game folder in your terminal application, type ```protontricks --gui```, choose *select the default prefix*, and click *ok*
++ Download [ProtonTricks](https://github.com/Matoking/protontricks) and follow directions for installation.
++ Once installed, open the game folder by navigating to the library, right-clicking on Fallout: New Vegas and selecting **manage -> browse local files**. Right-click in your file manager window and select *open in terminal*. In the terminal, type ```protontricks --gui```. Keep the terminal open, you'll use it later.
+    + In the **Choose Game** prompt, select **Fallout New Vegas** and click *ok*. Click-through any error messages that come up, they will not affect you.
+    + When the Winetricks GUI opens, choose **select the default wineprefix** and click *ok*.
+    + Choose **Install a windows DLL or component** and click *ok*.
+    + Scroll down, select **dotnet462** and click *ok*. Click-through any error messages that come up, they will not affect you. You will be prompted several times during the installation of dependencies for dotnet462 with EULAs and such. This step will take a few minutes, especially on a slower connection.
+    + Once installation has finished, the Winetricks GUI will open again. Select *Cancel* and exit the GUI.
+
++ Download the [Microsoft Visual C++ Redistributable](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0) from Microsoft support.
