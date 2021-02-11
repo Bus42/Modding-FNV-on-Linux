@@ -6,6 +6,8 @@ I can run FNV at a consistent 50-60 fps. I do experience some frame drop in comb
 
 I will make the assumption that you do know enough to at least run the game on your distro. I have played FNV on Manjaro, Ubuntu KDE, GNOME, and Budgie, Mint, AntiX, MX Linux, and probably another I don't recall. Ubuntu Budgie, by far, was the most friendly to my combination of game engine, compatibility tool, and graphics card and ran with the least issues in and out of game.
 
+I suggest keeping all of the files you download during setup in their own dowload folder outside of the wine prefix, such as `~/Downloads/Modding_FNV/` so if you ever need to do a clean install, it will be much easier to repeat this process.
+
 ## Install and setup Fallout: New Vegas through Steam.
 + After installing Fallout: New Vegas, restart Steam in offline mode.
 + Navigate to the library, right-click on **Fallout: New Vegas**, and select *Properties*.
@@ -17,13 +19,29 @@ I will make the assumption that you do know enough to at least run the game on y
     + Under the **Detail** section, click on **Advanced**.
     + Under the **Water** tab, disable *Water Displacement*.
     + If you're using a glorified toaster, you may want to go to the **Detail** tab and choose *Medium*  or, if you're using an actual potato, *Low*.
-## Lay the groundwork with Protontricks, NVSE, and 4gb Patch
-+ Download [ProtonTricks](https://github.com/Matoking/protontricks) and follow directions for installation.
+
+## Laying the groundwork for modding
+1. Protontricks
+2. FNV 4GB Patcher
+3. NVSE
+4. Vortex
+5. FNVEdit/QuickAutoClean
+
+### protontricks
++ Download [protontricks](https://github.com/Matoking/protontricks) and follow directions for installation.
 + Once installed, open the game folder by navigating to the library, right-clicking on Fallout: New Vegas and selecting **manage -> browse local files**. Right-click in your file manager window and select *open in terminal*. In the terminal, type ```protontricks --gui```. Keep the terminal open, you'll use it later.
     + In the **Choose Game** prompt, select **Fallout New Vegas** and click *ok*. Click-through any error messages that come up, they will not affect you.
     + When the Winetricks GUI opens, choose **select the default wineprefix** and click *ok*.
     + Choose **Install a windows DLL or component** and click *ok*.
-    + Scroll down, select **dotnet462** and click *ok*. Click-through any error messages that come up, they will not affect you. You will be prompted several times during the installation of dependencies for dotnet462 with EULAs and such. This step will take a few minutes, especially on a slower connection.
+    + Scroll down, select **dotnet462** and click *ok*. Click-through any error messages that come up, they will not affect you. You will be prompted several times during the installation of dependencies for dotnet462 with EULAs and such. This step will take a while, especially with a slower connection.
     + Once installation has finished, the Winetricks GUI will open again. Select *Cancel* and exit the GUI.
+### FNV 4GB Patcher
+   + Download the [Microsoft Visual C++ Redistributable](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0) from Microsoft support.
+       + Copy the downloaded .exe file to your game folder.
+       + In the terminal, which should still be open to the game directory, type `wine VC_redist.x86.exe`. The executable will install necesarry .dlls for running FNV 4GB Patcher
+   + Download [FNV 4GB Patcher](https://www.nexusmods.com/newvegas/mods/62552)
+       + In the terminal, which should still be open to the game directory, type `wine `.
+### NVSE
++ Download [NVSE](http://nvse.silverlock.org/) - you will not run this one just yet.
 
-+ Download the [Microsoft Visual C++ Redistributable](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0) from Microsoft support.
+### Vortex
