@@ -35,20 +35,36 @@ I suggest keeping all of the files you download during setup in their own dowloa
     + Choose **Install a windows DLL or component** and click *ok*.
     + Scroll down, select **dotnet462** and click *ok*. Click-through any error messages that come up, they will not affect you. You will be prompted several times during the installation of dependencies for dotnet462 with EULAs and such. This step will take a while, especially with a slower connection.
     + Once installation has finished, the Winetricks GUI will open again. Select *Cancel*, select *Cancel* again and exit the GUI.
-
+### NVSE
++ Download [NVSE](http://nvse.silverlock.org/) - you will not run this one, Vortex will automatically use it to launch Fallout: New Vegas
 ### Vortex
 + Download [Vortex](https://www.nexusmods.com/site/mods/1?tab=description) from Nexus Mods.
 + Place the .exe file in your game folder.
-+ Rename FalloutNVLauncher.exe to FalloutNVLauncher.bak
-+ Rename Vortex*.exe to FalloutNVLauncher.exe
-+ Launch Fallout: New Vegas through Steam and Vortex will install itself
-### NVSE
-+ Download [NVSE](http://nvse.silverlock.org/) - you will not run this one just yet.
++ Rename `FalloutNVLauncher.exe` to `FalloutNVLauncher.bak`
++ Rename `Vortex*.exe` to `FalloutNVLauncher.exe`
++ Launch Fallout: New Vegas through Steam and Vortex will install itself. Vortex will likely pop up a warning about admin rights, ignore it.
++ Once Vortex launches, click **Log in or Register** and authorize Nexus Mods, create an account if you need to - it will come in handy and really helps to support the mod authors by being able to provide feedback or contribute support.
++ On your Vortex dashboard, click on **Select a game to manage** in the *Let's Get You Set Up* section. Scroll down and you will see Fallout: New Vegas, hover over it and click *Manage*.
++ Toggle **Archive Invalidation** on by clicking on the corresponding button in the *Let's get you set up" section of the dashboard.
++ You may get prompted for permission to edit Fallout.ini. If so, click *Give Permission*.
++ You will get a warning that "Loose files may not get loaded", click *fix*.
++ Dismiss the notification about download links, they never worked for me.
++ If prompted to restart to update extensions, do so.
++ Launch Fallout: New Vegas, check that your settings are where you want them, then exit.
+
 ### FNV 4GB Patcher
    + Download the [Microsoft Visual C++ Redistributable](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0) from Microsoft support.
-   + Copy the downloaded .exe file to your game folder.
-   + In the terminal, which should still be open to the game directory, type `wine VC_redist.x86.exe`. The executable will install necesarry .dlls for running FNV 4GB Patcher.
+        + Copy the downloaded .exe file to your game folder.
+        + In the terminal, which should still be open to the game directory, type `wine VC_redist.x86.exe`. The executable will install necesarry .dlls for running FNV 4GB Patcher.
    + Download [FNV 4GB Patcher](https://www.nexusmods.com/newvegas/mods/62552).
-   + Copy the downloaded .exe file to your game folder.
-   + Unpack the .zip file into a folder in the same directory, ie: `~/Downloads/Modding_FNV/4GBPatch/`.
-   + Open **FNV4GB Readme.txt** and follow the directions in the *Running* section, run with wine the same as you did to run the Microsoft Visual C++ Redistributable.
+        + Copy the downloaded .exe file to your game folder.
+        + Unpack the .zip file into a folder in the same directory, ie: `~/Downloads/Modding_FNV/4GBPatch/`.
+   + Back to the Vortex dashboard - click on **Add Tool** and select *New*.
+        + A window will open with fields for *Name*, *Target*, *Command Line*, and *Start in*. You only need to be concerned with *Target*.
+        + Find `fnv4gb.exe` in your file explorer and right-click to open *Properties*.
+        + Copy and paste the filename with extension in to the **Target** field in the add tool window.
+        + Copy the path, in **Target** type `Z:`, ctrl-v to paste the path, then `/` to get the full path ie: `Z:/home/user/.local/share/Steam/steamapps/common/Fallout New Vegas/fnv4gb.exe`. The icon should change automatically to confirm. Click *Save* and exit.
+        + Run the patcher, it will launch the game.
+        + Once the game has loaded up at the main menu, press the tilde key to open the console, then type `GetNVSEVersion` to verify installation of NVSE.
+### FNVEdit
++ Download [xEdit](#)
