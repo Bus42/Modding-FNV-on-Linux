@@ -4,6 +4,8 @@
 
 I can run FNV at a consistent 50-60 fps. I do experience some frame drop in combat, down to 20-30 frames. If I can do that with this old machine, this should be a breeze for anyone running a more modern setup.
 
+I will make the assumption that you do know enough to at least run the game on your distro. I have played FNV on Manjaro, Ubuntu KDE, GNOME, and Budgie, Mint, AntiX, MX Linux, and probably another I don't recall. Ubuntu Budgie, by far, was the most friendly to my combination of game engine, compatibility tool, and graphics card and ran with the least issues in and out of game.
+
 ## Install and setup Fallout: New Vegas through Steam.
 + After installation, restart steam in offline mode.
 + Navigate to the library in Steam after installation, right-click on **Fallout: New Vegas**, and select *Properties*.
