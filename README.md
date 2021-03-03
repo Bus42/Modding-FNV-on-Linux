@@ -44,7 +44,7 @@ I suggest keeping all of the files you download during setup in their own dowloa
 + Rename `Vortex*.exe` to `FalloutNVLauncher.exe`
 + Launch Fallout: New Vegas through Steam and Vortex will install itself. Vortex will likely pop up a warning about admin rights, ignore it.
 + Once Vortex launches, click **Log in or Register** and authorize Nexus Mods, create an account if you need to - it will come in handy and really helps to support the mod authors by being able to provide feedback or contribute support.
-+ On your Vortex dashboard, click on **Select a game to manage** in the *Let's Get You Set Up* section. Scroll down and you will see Fallout: New Vegas, hover over it and click *Manage*.
++ On your Vortex dashboard, click on **Select a game to manage** in the *Let's Get You Set Up* section. Scroll down and you will see Fallout: New Vegas, hover over it and click *Manage*. If prompted for access, give permission.
 + Toggle **Archive Invalidation** on by clicking on the corresponding button in the *Let's get you set up" section of the dashboard.
 + You may get prompted for permission to edit Fallout.ini. If so, click *Give Permission*.
 + You will get a warning that "Loose files may not get loaded", click *fix*.
