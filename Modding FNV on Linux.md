@@ -28,8 +28,8 @@ I suggest keeping all of the files you download during setup in their own dowloa
 5. FNVEdit/QuickAutoClean
 
 ### protontricks
-+ Download [protontricks](https://github.com/Matoking/protontricks) and follow directions for installation.
-+ Once installed, open the game folder by navigating to the library, right-clicking on Fallout: New Vegas and selecting **manage -> browse local files**. Right-click in your file manager window and select *open in terminal*. In the terminal, type ```protontricks --gui```. Keep the terminal open, you'll use it later.
++ Download [protontricks](https://github.com/Matoking/protontricks) and follow directions for installation. Depending on your Linux distro, this may require installation of Winetricks. Winetricks can be installed by typing `sudo apt-get install -y winetricks`.
++ Once installed, open the game folder by navigating to the Steam library, right-clicking on Fallout: New Vegas and selecting **manage -> browse local files**. Right-click in your file manager window and select *open in terminal*. In the terminal, type `protontricks --gui`. Keep the terminal open, you'll use it later.
     + In the **Choose Game** prompt, select **Fallout New Vegas** and click *ok*. Click-through any error messages that come up, they will not affect you.
     + When the Winetricks GUI opens, choose **select the default wineprefix** and click *ok*.
     + Choose **Install a windows DLL or component** and click *ok*.
