@@ -35,8 +35,6 @@ I suggest keeping all of the files you download during setup in their own dowloa
     + Choose **Install a windows DLL or component** and click *ok*.
     + Scroll down, select **dotnet462** and click *ok*. Click-through any error messages that come up, they will not affect you. You will be prompted several times during the installation of dependencies for dotnet462 with EULAs and such. This step will take a while, especially with a slower connection.
     + Once installation has finished, the Winetricks GUI will open again. Select *Cancel*, select *Cancel* again and exit the GUI.
-### NVSE
-+ Download [NVSE](http://nvse.silverlock.org/) - you will not run this one, Vortex will automatically use it to launch Fallout: New Vegas
 ### Vortex
 + Download [Vortex](https://www.nexusmods.com/site/mods/1?tab=description) from Nexus Mods.
 + Place the .exe file in your game folder.
@@ -45,6 +43,7 @@ I suggest keeping all of the files you download during setup in their own dowloa
 + Launch Fallout: New Vegas through Steam and Vortex will install itself. Vortex will likely pop up a warning about admin rights, ignore it.
 + Once Vortex launches, click **Log in or Register** and authorize Nexus Mods, create an account if you need to - it will come in handy and really helps to support the mod authors by being able to provide feedback or contribute support.
 + On your Vortex dashboard, click on **Select a game to manage** in the *Let's Get You Set Up* section. Scroll down and you will see Fallout: New Vegas, hover over it and click *Manage*. If prompted for access, give permission.
++ In your notifications, you will see a warning that NVSE is not installed, click on this to automatically dowload and install [New Vegas Script Extender](http://nvse.silverlock.org/)
 + Toggle **Archive Invalidation** on by clicking on the corresponding button in the *Let's get you set up" section of the dashboard.
 + You may get prompted for permission to edit Fallout.ini. If so, click *Give Permission*.
 + You will get a warning that "Loose files may not get loaded", click *fix*.
