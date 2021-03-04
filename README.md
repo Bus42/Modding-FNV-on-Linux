@@ -2,7 +2,10 @@
 
 *This guide was written running Ubuntu Budgie 20.04.2 on a HP Elitebook 8740w (a laptop as old as FNV) with a 2.67ghz i7 processor, a 4GB NVIDIA Quadro M3000M mobile graphics card, 8ghz DDR3 RAM, and a RAID 0 setup utilizing two 7200 rpm HDD.*
 
-I can run FNV at a consistent 50-60 fps. I do experience some frame drop in combat, down to 20-30 frames. If I can do that with this old machine, this should be a breeze for anyone running a more modern setup.
+
++ *I recently changed to Kubuntu 20.04 on the same machine, but I changed my drive setup and mounted my secondary HDD to `/home/<user>/Steam_Games/`, so now all of my Steam installs are on a separate drive. This also helps to separate drive read/write tasks so if I'm downloading something to ~/Downloads (on /dev/sda2) in the background, it doesn't affect the read/write speed of my Steam games (on /dev/sdb1)*
+
+I can run FNV at a consistent 50-60 fps. I do experience some frame drop in combat, down to 20-30 frames. If I can do that with this old machine, this should be a breeze for anyone running a more modern setup. I acheived this using NMC's small texture pack, Ojo Bueno's texture pack, and Wasteland Weather
 
 I will make the assumption that you do know enough to at least run the game on your distro. I have played FNV on Manjaro, Ubuntu KDE, GNOME, and Budgie, Mint, AntiX, MX Linux, and probably another I don't recall. Ubuntu Budgie, by far, was the most friendly to my combination of game engine, compatibility tool, and graphics card and ran with the least issues in and out of game.
 
