@@ -57,7 +57,7 @@ I suggest keeping all of the files you download during setup in their own dowloa
 
 ### Wrye Flash
 + Download [Wrye Flash](https://www.nexusmods.com/newvegas/mods/35003)
-+ Extract and copy the `data` and `mopy` folders into your game folder. We'll get back to this one as well.
++ Extract and copy the `data` and `mopy` folders into your game folder. The executable is located in the `mopy` folder. We'll get back to this one as well.
 
 ### Vortex
 + Download [Vortex](https://www.nexusmods.com/site/mods/1?tab=description) from Nexus Mods.
