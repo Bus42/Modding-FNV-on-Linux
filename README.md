@@ -15,7 +15,7 @@ I suggest keeping all of the files you download during setup in their own dowloa
 + After installing Fallout: New Vegas, restart Steam in offline mode.
 + Navigate to the library, right-click on **Fallout: New Vegas**, and select *Properties*.
 + In the **General** section, disable *Enable the Steam Overlay while in-game*.
-+ In the **Compatibility** section, check *force the use of a specific Steam Play compatibility tool* and select **Proton 5.0-10** from the drop-down menu.
++ In the **Compatibility** section, check *force the use of a specific Steam Play compatibility tool* and select **Proton 4.11-13** from the drop-down menu.-
 + Launch FNV via Steam to perform first time setup.
     + In the FNV launcher menu, select **OPTIONS**.
     + Under the **Graphics Adapter and Resolution** section, disable *Anitialiasing* and *Anisotropic Filtering*.
