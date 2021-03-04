@@ -51,6 +51,14 @@ I suggest keeping all of the files you download during setup in their own dowloa
         + Open a terminal in the game folder and type `wine fnv4gb.exe`, it will patch the executable and launch the game.
         + Once the game has loaded up at the main menu, press the tilde key to open the console, then type `GetNVSEVersion` to verify installation of NVSE.
 
+### FNVEdit
++ Download [FNVEdit](https://www.nexusmods.com/newvegas/mods/34703)
++ Extract and copy everything but the text files into your game folder. We'll get back to this one.
+
+### Wrye Flash
++ Download [Wrye Flash](https://www.nexusmods.com/newvegas/mods/35003)
++ Extract and copy the `data` and `mopy` folders into your game folder. We'll get back to this one as well.
+
 ### Vortex
 + Download [Vortex](https://www.nexusmods.com/site/mods/1?tab=description) from Nexus Mods.
 + Place the .exe file in your game folder.
@@ -66,7 +74,4 @@ I suggest keeping all of the files you download during setup in their own dowloa
 + Dismiss the notification about download links, they never worked for me.
 + If prompted to restart to update extensions, do so.
 + Launch Fallout: New Vegas, check that your settings are where you want them, then exit.
-### FNVEdit
-+ Download [xEdit](#)
-### Wrye Flash
-+ Download [Wrye Flash](#)
++ Update the filenames and locations for your tools (FNVEdit and Wrye Flash) by clicking on the dots on the side of the respective buttons. You can find the file path by right-clicking on one of the tools in your game folder and selecting *properties*. From there you can copy and paste the file name and path into Vortex using keyboard shortcuts to paste (no mouse right-click menu). The correct format should be `z:` + `/home/<user>/..path/to/file` + `/` + `tool.exe`
