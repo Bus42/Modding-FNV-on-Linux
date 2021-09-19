@@ -77,7 +77,3 @@ I suggest keeping all of the files you download during setup in their own dowloa
 + Update the filenames and locations for your tools (FNVEdit and Wrye Flash) by clicking on the dots on the side of the respective buttons. You can find the file path by right-clicking on one of the tools in your game folder and selecting *properties*. From there you can copy and paste the file name and path into Vortex using keyboard shortcuts to paste (no mouse right-click menu). The correct format should be `z:` + `/home/<user>/..path/to/file` + `/` + `tool.exe`
 
 You are now ready to install mods!
-
-Everything is ordered. follow the numbers from 00 up. If there are no numbers, then install everything in that folder that is, then install the unordered mods.
-
-Everything from every folder (excluding Extras) can be installed with the exception of the Pip-Boy folder. I have 3 choices of Pip-Boy mod - the Classic, Nuka Cola, and Readius Pip-Boy 2500s and the Black and Gold Pip-Boy 3000
